@@ -45,29 +45,11 @@ function Headquarters() {
 
   return (
     <div className="wrapper">
-      <div className="container-fluid my-3">
-        <div>
-          <h1 className="font-weight-bolder underscore">Headquarters</h1>
-        </div>
-      </div>
-      <div className="wrapper headquarters py-6">
-        <div className="container-fluid">
-          <div className="row my-6 align-items-center justify-content-center">
-            <div className="col-9 col-md-5 col-lg-3 py-3 my-2 mx-6 bg-primary clock-box">
-              <div className="d-flex align-items-center justify-content-center my-2">
-                <div className="px-3"> <i className="ai-logo-artlimes" /></div><h4 className="font-weight-bolder">London <br /> UK</h4>
-              </div>
+     
               <Clock value={timeLondon} />
-            </div>
-            <div className="col-9 col-md-5 col-lg-3 py-3 my-2 mx-6 bg-primary clock-box">
-              <div className="d-flex align-items-center justify-content-center my-2">
-                <div className="px-3"> <i className="ai-logo-artlimes" /></div><h4 className="font-weight-bolder">Athens <br /> Greece</h4>
-              </div>
+        
               <Clock value={timeAthens} />
-            </div>
-          </div>
-        </div>
-      </div>
+       
     </div>
   );
 }
